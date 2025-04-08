@@ -1,0 +1,13 @@
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] MongoDB starting : pid=14347 port=27017 dbpath=/var/lib/mongodb 64-bit host=codespaces-a253d6
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] db version v3.6.8
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] modules: none
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] build environment:
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", path: "./mongodb.log" } }
+2025-04-08T09:33:43.732+0000 I STORAGE  [initandlisten] exception in initAndListen: IllegalOperation: Attempted to create a lock file on a read-only directory: /var/lib/mongodb, terminating
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] now exiting
+2025-04-08T09:33:43.732+0000 I CONTROL  [initandlisten] shutting down with code:100
